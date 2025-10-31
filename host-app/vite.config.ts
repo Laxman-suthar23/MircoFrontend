@@ -11,8 +11,8 @@ export default defineConfig({
     federation({
       name: 'host-app',
       remotes: {
-        chatApp: 'http://localhost:4173/assets/remoteEntry.js',
-        emailApp: 'http://localhost:4174/assets/remoteEntry.js',
+        chatApp: 'https://mirco-frontend.vercel.app/assets/remoteEntry.js',
+        emailApp: 'https://mirco-frontend-7yg5.vercel.app/assets/remoteEntry.js',
       },
       shared: ['react', 'react-dom', 'react-router-dom']
     })
